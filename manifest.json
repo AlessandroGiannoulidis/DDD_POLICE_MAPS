@@ -1,6 +1,6 @@
 {
-  "name": "Mappa My Maps",
-  "short_name": "Mappa",
+  "name": "DDD Police Maps",
+  "short_name": "DDD Maps",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
