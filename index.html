@@ -12,23 +12,43 @@
       navigator.serviceWorker.register('sw.js');
     }
   </script>
+  <style>
+    body {
+      text-align: center;
+      padding: 2rem;
+      font-family: sans-serif;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    .button {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
-<body style="text-align: center; padding: 2rem; font-family: sans-serif;">
-  <h1>DDD Police Maps</h1>
-  <p>Elenco degli Organi di Controllo che utilizzano DDD Police. </p>
-  <a href="https://www.google.com/maps/d/viewer?mid=1OtDZQkLOt6HJG6VoI8NMon1kiseuJDc&ll=45.63537902312598%2C10.73211914999999&z=9" 
-     target="_blank" 
-     style="display: inline-block; padding: 1rem 2rem; background-color: #007BFF; color: white; border-radius: 8px; text-decoration: none; font-size: 1.2rem;">
-    Apri Mappa
-  </a>
-</head>
-<body style="text-align: center; padding: 2rem; font-family: sans-serif;">
-  <h1>Aggiungi nuovi Comandi</h1>
-    <p>Modifica visualizzazione qui sotto. </p>
-  <a href="https://www.google.com/mymaps/viewer?mid=1OtDZQkLOt6HJG6VoI8NMon1kiseuJDc&hl=it" 
-     target="_blank" 
-     style="display: inline-block; padding: 1rem 2rem; background-color: #007BFF; color: white; border-radius: 8px; text-decoration: none; font-size: 1.2rem;">
-    Modifica Mappa
-  </a>
+<body>
+  <div class="section">
+    <h1>DDD Police Maps</h1>
+    <p>Elenco degli Organi di Controllo che utilizzano DDD Police.</p>
+    <a href="https://www.google.com/maps/d/viewer?mid=1OtDZQkLOt6HJG6VoI8NMon1kiseuJDc&ll=45.63537902312598%2C10.73211914999999&z=9" 
+       target="_blank" class="button">
+      Apri Mappa
+    </a>
+  </div>
+
+  <div class="section">
+    <h1>Aggiungi nuovi Comandi</h1>
+    <p>Modifica visualizzazione qui sotto.</p>
+    <a href="https://www.google.com/mymaps/viewer?mid=1OtDZQkLOt6HJG6VoI8NMon1kiseuJDc&hl=it" 
+       target="_blank" class="button">
+      Modifica Mappa
+    </a>
+  </div>
 </body>
 </html>
